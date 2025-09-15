@@ -20,6 +20,18 @@ body {
     
   }
 
+  .box2 {
+    border: 2px;
+    border-style: double;
+    border-color: darkgreen;
+    width:500px;
+    height:fit-content;
+    background-color: chartreuse;
+    margin-left: 500px;
+    position:fixed;
+    top: 180px;
+  }
+
   .box-header {
     background-color: darkgreen; 
     color:white;
