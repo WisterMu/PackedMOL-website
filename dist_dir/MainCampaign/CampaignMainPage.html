@@ -4,15 +4,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to my site!</title>
-  <link href="https://packedmol.neocities.org/format.css" rel="stylesheet" type="text/css" media="all">
+
+  <!--This is all for the moving text on the top. LOOK AT IT THAT'S CRAZY-->
+  <script type="text/javascript">
+    function tb8_makeArray(n) {
+      this.length = n;
+      return this.length;
+    }
+    tb8_messages = new tb8_makeArray(3);
+    tb8_messages[0] = "DnD Campaign of";
+    tb8_messages[1] = "Suffering and Doom";
+    tb8_rptType = 'infinite';
+    tb8_rptNbr = 5;
+    tb8_speed = 100;
+    tb8_delay = 2000;
+    var tb8_counter = 1;
+    var tb8_currMsg = 0;
+    var tb8_tekst = "";
+    var tb8_i = 0;
+    var tb8_TID = null;
+    function tb8_pisi() {
+      tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i + 1);
+      document.title = tb8_tekst;
+      tb8_sp = tb8_speed;
+      tb8_i++;
+      if (tb8_i == tb8_messages[tb8_currMsg].length) {
+        tb8_currMsg++; tb8_i = 0; tb8_tekst = ""; tb8_sp = tb8_delay;
+      }
+      if (tb8_currMsg == tb8_messages.length) {
+        if ((tb8_rptType == 'finite') && (tb8_counter == tb8_rptNbr)) {
+          clearTimeout(tb8_TID);
+          return;
+        }
+        tb8_counter++;
+        tb8_currMsg = 0;
+      }
+      tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+    }
+    tb8_pisi()
+  </script>
+
+
+  <!--Alright, back to normal html stuff-->
+  <link href="https://packedmol.neocities.org/MainCampaign/DnDFormat.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body>
 
+  <div class="box">
+    <div class="inner">
+      <h1>Dungeons and Dragons Guys!!!</h1>
+      <h2>Yippee!</h2>
 
+      <p>So like...GUYS I'M TOTALLY NORMAL ABOUT MY PLAYERS AND THIS CAMPAIGN AND EVERYTHING OMG. Ok so I started this
+        campaign with a bunch of my friends back in the summer of 2022. Sessions have unfortunately slowed down to about
+        once a month but we're still going strong!...I think. <br><br> Anyways, there's gonna be a lot more information here
+        soon like people, places, and shenanigans that my players have gotten into</p>
+    </div>
+  </div>
 
 
 
 </body>
+
 </html>

@@ -16,8 +16,7 @@ body {
     background-color: chartreuse;
     margin-left: 500px;
     position:fixed;
-    top: 20px;
-    
+    top: 20px;    
   }
 
   .box2 {
@@ -29,7 +28,7 @@ body {
     background-color: chartreuse;
     margin-left: 500px;
     position:fixed;
-    top: 180px;
+    top: 400px;
   }
 
   .box-header {
