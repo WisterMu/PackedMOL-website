@@ -23,10 +23,10 @@ body {
     border: 2px;
     border-style: double;
     border-color: #cfc092;
-    width:200px;
+    width:250px;
     height:fit-content;
     background-color: #F1E9D2;
-    margin-left: 250px;
+    margin-left: 200px;
     position:fixed;
     top: 20px;   
   }
