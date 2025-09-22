@@ -19,6 +19,33 @@ body {
     top: 20px;    
   }
 
+  .box2 {
+    border: 2px;
+    border-style: double;
+    border-color: #cfc092;
+    width:200px;
+    height:fit-content;
+    background-color: #F1E9D2;
+    margin-left: 250px;
+    position:fixed;
+    top: 20px;   
+  }
+
 .inner {
     padding: 10px;
   }
+
+.navigation .current-page {
+    background: #174522;
+    color: #edf2ed;
+    border: 2px solid #006850;
+    border-bottom: 4px solid #174522;
+}
+
+.navigation a {
+    color: #edf2ed;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.05rem;
+}
