@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://packedmol.neocities.org/Images/images.jpg"); /*Replace with your own background*/
+  background-color: black; /*Replace with your own background*/
 	background-size: 10%;
 	background-attachment: fixed;
   background-position:center;
@@ -7,42 +7,34 @@ body {
 	font-size: 13px;
   }
   
-.box {
+.box, .box2 {
     border: 2px;
     border-style: double;
     border-color: darkgreen;
+    border-radius: 10px;
     width:500px;
     height:fit-content;
     background-color: chartreuse;
     margin-left: 500px;
-    position:fixed;
-    top: 20px;    
-  }
-
-  .box2 {
-    border: 2px;
-    border-style: double;
-    border-color: darkgreen;
-    width:500px;
-    height:fit-content;
-    background-color: chartreuse;
-    margin-left: 500px;
-    position:fixed;
-    top: 400px;
+    position:relative;
+    margin-top: 20px; 
   }
 
   .box-header {
     background-color: darkgreen; 
     color:white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   .sidebox {
     border: 2px;
     border-color: darkgreen;
+    border-radius: 10px;
     background-color: chartreuse;
-    margin-left: 200px;
+    float:left;
+    margin-left: 240px;
     width: 250px;
-    transform: translateY(70px);
   }
 
   .inner {
@@ -52,10 +44,11 @@ body {
   .counter {
     border: 2px;
     border-color: darkgreen;
+    border-radius: 10px;
     background-color: chartreuse;
-    margin-left: 200px;
     width: 250px;
-    transform: translateY(120px);
     text-align: center;
     align-items: center;
+    float:right;
+    margin-right: 260px;
   }
