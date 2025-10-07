@@ -1,33 +1,31 @@
 body {
-  background-image: url("https://packedmol.neocities.org/Images/oldmapbackground.jpg"); /*Replace with your own background*/
+  background-image: url("https://packedmol.neocities.org/Images/oldmapbackground.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
-    background-position:center;
+  background-position:center;
 	font-family: "VT-100", fixedsys, System, monospace;
 	font-size: 13px;
   }
-
 .box {
-    border: 2px;
+    border: 10px;
     border-style: double;
     border-color: #cfc092;
     width:600px;
-    height:fit-content;
     background-color: #F1E9D2;
-    margin-left: 460px;
-    top: 20px;    
+    position: absolute;
+    margin-left: 450px;
+    
   }
 
   .box2 {
-    border: 2px;
+    border: 10px;
     border-style: double;
     border-color: #cfc092;
     width:250px;
-    height:fit-content;
     background-color: #F1E9D2;
-    margin-left: 200px;
-    position:fixed;
-    top: 20px;   
+    float:left;
+    position: relative;
+    margin-left: 180px;
   }
 
 .inner {
@@ -35,51 +33,3 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
   }
-
-.navigation .current-page {
-    background: #174522;
-    color: #edf2ed;
-    border: 2px solid #006850;
-    border-bottom: 4px solid #174522;
-}
-
-.navigation a {
-    color: #edf2ed;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 1.05rem;
-}
-
-.pfp {
-  float: right;
-  border: 10px groove burlywood;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #cfc092;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #918666;
-  color: white;
-}
