@@ -6,14 +6,25 @@ body {
 	font-family: "VT-100", fixedsys, System, monospace;
 	font-size: 13px;
   }
+
+  .mainboxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .sideboxes {
+    display: flex;
+    justify-content: center;
+  }
+
 .box {
     border: 10px;
     border-style: double;
     border-color: #cfc092;
     width:600px;
     background-color: #F1E9D2;
-    position: absolute;
-    margin-left: 450px;
+    position: relative;
     
   }
 
@@ -25,7 +36,6 @@ body {
     background-color: #F1E9D2;
     float:left;
     position: relative;
-    margin-left: 180px;
   }
 
 .inner {
