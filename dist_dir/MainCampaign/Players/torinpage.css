@@ -7,15 +7,21 @@ body {
 	font-size: 13px;
   }
 
+.mainboxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
 .box {
     border: 10px;
     border-style: double;
     border-color: #2e0044;
-    width:600px;
+    width:60vw;
     background-color: #c800ff;
-    position: absolute;
-    margin-left: 450px;
-    
+    position: relative;    
   }
 
 
@@ -25,9 +31,13 @@ body {
     font-size: 15px;
   }
 
+
+/*properties for the first photo at top of page*/
 .pfp {
   float: right;
   border: 10px groove #00ccdb;
+  width: 20vw;
+  height: 60vh;
 }
 
 /* Add a black background color to the top navigation */

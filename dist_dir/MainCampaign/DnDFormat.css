@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .sideboxes {
@@ -22,17 +24,17 @@ body {
     border: 10px;
     border-style: double;
     border-color: #cfc092;
-    width:600px;
+    width:30vw;
     background-color: #F1E9D2;
     position: relative;
-    
   }
 
   .box2 {
     border: 10px;
     border-style: double;
     border-color: #cfc092;
-    width:250px;
+    width:15vw;
+    height: fit-content;
     background-color: #F1E9D2;
     float:left;
     position: relative;
