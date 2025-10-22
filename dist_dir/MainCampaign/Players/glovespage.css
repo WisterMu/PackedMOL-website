@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://packedmol.neocities.org/MainCampaign/Players/images/glovesbackground.jpg");
+  background-image: url("https://packedmol.neocities.org/MainCampaign/Players/images/glovesbackground.webp");
 	background-size: 100%;
 	background-attachment: fixed;
     background-position:center;
@@ -40,8 +40,8 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #00008B;
   overflow: hidden;
+  background-color: #00008B;
 }
 
 /* Style the links inside the navigation bar */
@@ -56,12 +56,65 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #0000ff;
+  background-color: #00008B;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #00004e;
+  background-color: #170022;
   color: white;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
