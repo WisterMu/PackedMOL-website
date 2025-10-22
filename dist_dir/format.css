@@ -52,8 +52,8 @@ body {
     border-radius: 10px;
     background-color: chartreuse;
     float:left;
-    width: 10vw;
-    height: 20vh;
+    width: 17vw;
+    height: 10vh;
     margin-top: 10px;
   }
 
@@ -68,7 +68,7 @@ body {
     background-color: chartreuse;
     text-align: center;
     float:right;
-    width: 10vw;
+    width: 17vw;
     height: 25vh;
     margin-top: 10px;
   }

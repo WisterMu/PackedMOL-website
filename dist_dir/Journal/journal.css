@@ -1,0 +1,92 @@
+body {
+    background-image: url("https://packedmol.neocities.org/Journal/images/journalBackground.webp");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position:center;
+    font-family: "VT-100", fixedsys, System, monospace;
+    font-size: 13px;
+  }
+
+  .sideboxes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .mainboxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+.box {
+    border: 2px;
+    border-style: outset;
+    border-color: #fed800;
+    width:30vw;
+    height:fit-content;
+    background-color: #FFFF99;
+    position:relative;
+    margin: 10px;
+  }
+
+  footer {
+    border: 2px;
+    border-style: outset;
+    border-color: #fed800;
+    width:fit-content;
+    height:fit-content;
+    background-color: #FFFF99;
+    position:relative;
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .box-header {
+    background-color: #fed800; 
+    color:black;
+    height: 3vh;
+  }
+
+  .sidebox-header1 {
+    background-color: #ff65a3; 
+    color:black;
+    height: 3vh;
+  }
+
+  .sidebox-header2 {
+    background-color: #cba3e0; 
+    color:black;
+    height: 3vh;
+  }
+
+  .sidebox-left {
+    border: 2px;
+    background-color: #ff7eb9;
+    border-style: outset;
+    border-color: #ff65a3;
+    float:left;
+    width: 17vw;
+    height: 10vh;
+    margin-top: 10px;
+  }
+
+  .sidebox-right {
+    border: 2px;
+    background-color: #e7a5d3;
+    border-style: outset;
+    border-color: #cba3e0;
+    float:right;
+    width: 17vw;
+    height: fit-content;
+    margin-top: 10px;
+  }
+
+  .inner {
+    padding: 10px;
+  }
