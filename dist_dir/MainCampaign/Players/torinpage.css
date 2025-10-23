@@ -2,7 +2,7 @@ body {
   background-image: url("https://packedmol.neocities.org/MainCampaign/Players/images/torinBackground2.webp");
 	background-size: 100%;
 	background-attachment: fixed;
-    background-position:center;
+  background-position:center;
 	font-family: "VT-100", fixedsys, System, monospace;
 	font-size: 13px;
   }

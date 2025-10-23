@@ -4,13 +4,12 @@ body {
     background-attachment: fixed;
     background-position:center;
     font-family: "VT-100", fixedsys, System, monospace;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .sideboxes {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
   }
 
   .mainboxes {
@@ -18,7 +17,6 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
   }
   
 .box {
@@ -70,10 +68,10 @@ body {
     background-color: #ff7eb9;
     border-style: outset;
     border-color: #ff65a3;
-    float:left;
     width: 17vw;
-    height: 10vh;
+    height: 40vh;
     margin-top: 10px;
+    overflow-y: auto;
   }
 
   .sidebox-right {
