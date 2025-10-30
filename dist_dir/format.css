@@ -7,7 +7,18 @@ body {
 	font-size: 13px;
   }
 
-  .sideboxes {
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(16, [start-col] 1fr);
+    grid-gap: 10px;
+  }
+
+header {
+    grid-column: start-col 4 / span 10;
+    overflow: hidden;
+  }
+
+/*  .sideboxes {
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -20,41 +31,45 @@ body {
     align-items: center;
     justify-content: space-around;
   }
-
-  .banner {
-    border-radius: 10%;
-    overflow: hidden;
-    
-  }
+*/
   
-.box, .box2 {
+.box {
     border: 2px;
     border-style: double;
     border-color: darkgreen;
     border-radius: 10px;
-    width:30vw;
     height:fit-content;
     background-color: chartreuse;
-    position:relative;
-    margin: 10px;
+    grid-row: 2;
+    grid-column: start-col 5 / span 8;
   }
 
-  .box-header {
+.box2 {
+    border: 2px;
+    border-style: double;
+    border-color: darkgreen;
+    border-radius: 10px;
+    height:fit-content;
+    background-color: chartreuse;
+    grid-row: 3;
+    grid-column: start-col 5 / span 8
+  }
+
+.box-header {
     background-color: darkgreen; 
     color:white;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
   }
 
-  .sidebox {
+.sidebox {
     border: 2px;
     border-color: darkgreen;
     border-radius: 10px;
     background-color: chartreuse;
-    float:left;
-    width: 17vw;
-    height: 15vh;
-    margin-top: 10px;
+    height: fit-content;
+    grid-column: start-col 2/ span 3;
+    grid-row: 2;
   }
 
   .inner {
@@ -67,8 +82,7 @@ body {
     border-radius: 10px;
     background-color: chartreuse;
     text-align: center;
-    float:right;
-    width: 17vw;
     height: 25vh;
-    margin-top: 10px;
+    grid-column: start-col 13 / span 3;
+    grid-row: 2;
   }
