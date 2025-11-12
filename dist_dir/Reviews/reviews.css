@@ -37,6 +37,22 @@ hr {
 .header p {
   font-size: 0.95em;
   }
+
+
+/*Game icons and their reaction to users*/
+.gameIcons{
+  margin:10px;
+  height: 30vh;
+  width: 15vw;
+  transition: 0.3s ease-in-out;
+}
+
+.gameIcons:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 20px 50px rgb(0, 0, 0);
+}
+
+
   
 /* The navbar of tabs. The illusion of a tab connecting into the main box is created by
  * giving the nav tab links an extra thick bottom border that covers the top border of
