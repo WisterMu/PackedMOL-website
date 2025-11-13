@@ -38,13 +38,12 @@ hr {
   font-size: 0.95em;
   }
 
-
 /*Game icons and their reaction to users*/
 .gameIcons{
   margin:10px;
-  height: 30vh;
+  height: auto;
   width: 15vw;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;   
 }
 
 .gameIcons:hover {
@@ -113,20 +112,42 @@ hr {
 .main a {
   color: #102323;
   }
+
+.main h1 {
+  text-align: center;
+  color:#000000;
+}
     
 .main-inner {
-  background: #edf2ed;
-  color: #123923;
+  background: #000000;
+  color: #000000;
   background: linear-gradient(#a2a2a2 0px, #5b5b5b 150px);
   padding: 0.25rem 1.5rem 1rem 1.5rem;
   display: block;
+  text-align: center;
   }
-  
-/* Prevent large image overflow. */
-.main-inner img {
-  max-width: 100%;
+
+.main-inner p {
+  text-align: left;
+  text-indent: 2em;
+}
+
+.header img {
+  text-align: center;
+  height:auto;
+  width:50vw;
+  margin-top: 5vh;
+}
+
+.rating img {
+  max-width: 5vw;
   height: auto;
-  }
+}
+
+/*format moles for the rating*/
+.rating {
+  overflow: visible;
+}
   
 
 /*Text outside the box, at the bottom of the page.*/
@@ -200,7 +221,7 @@ hr {
     
   .main-inner {
     background: #09120a;
-    color: #edf2ed;
+    color: #000000;
     background: linear-gradient(#a2a2a2 0px, #5b5b5b 150px);
     }
     

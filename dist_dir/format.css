@@ -57,6 +57,16 @@ header {
     grid-row: 2;
   }
 
+.sidebox2 {
+    border: 2px;
+    border-color: darkgreen;
+    border-radius: 10px;
+    background-color: chartreuse;
+    height: fit-content;
+    grid-column: start-col 2/ span 3;
+    grid-row: 3;
+}
+
   .inner {
     padding: 10px;
   }
