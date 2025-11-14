@@ -81,3 +81,18 @@ header {
     grid-column: start-col 13 / span 3;
     grid-row: 2;
   }
+
+  .box2 li{
+    font-size: 1rem;
+    list-style: none;
+  }
+
+  li::before {
+  content: '';
+  display: inline-block;
+  height: 5vh;
+  width: 5vw;
+  background-image: url('https://packedmol.neocities.org/Images/molebulletpoint.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
