@@ -41,6 +41,12 @@ body {
   height: 60vh;
 }
 
+/*Spotify playlist*/
+iframe {
+  margin: 5px;
+  width: 60vw;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;

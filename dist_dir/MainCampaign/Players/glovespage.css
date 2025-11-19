@@ -38,6 +38,12 @@ body {
   height: 20vw;
 }
 
+/*Spotify playlist*/
+iframe {
+  margin: 5px;
+  width: 60vw;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
@@ -86,7 +92,7 @@ body {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #0000c4;
 }
 
 /* Dropdown content (hidden by default) */
