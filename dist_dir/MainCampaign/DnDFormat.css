@@ -45,3 +45,12 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
   }
+
+  img {
+    margin: 10px;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
