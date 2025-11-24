@@ -43,8 +43,8 @@ header {
 .box-header {
     background-color: darkgreen; 
     color:white;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
 .sidebox {
