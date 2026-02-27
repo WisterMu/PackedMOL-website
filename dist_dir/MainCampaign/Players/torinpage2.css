@@ -107,6 +107,11 @@ main {
   border-radius: var(--round-borders);
 }
 
+.row {
+  display: flex;
+  margin: 10px;
+}
+
 /* -------------------------------------------------------- */
 /* HEADER */
 /* -------------------------------------------------------- */
@@ -343,6 +348,11 @@ main {
   line-height: 1.5;
 }
 
+.content {
+  flex: 1 1;
+  border: #bd23ff;
+}
+
 main a,
 main a:visited {
   color: var(--link-color);
@@ -498,6 +508,15 @@ main h6 {
   padding: 5px;
   margin: 0;
   overflow: hidden;
+}
+
+.pfp {
+  width: 90%;
+  height: 90%;
+  border-color: #bd23ff;
+  border-style: groove;
+  border-radius: 50%;
+  border-width: 15px;
 }
 
 /* -------------------------------------------------------- */
