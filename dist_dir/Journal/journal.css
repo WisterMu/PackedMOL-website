@@ -1,90 +1,112 @@
 body {
-  background-image: linear-gradient(90deg, transparent 0%, transparent 12%, rgb(243,197,147) 12%, rgb(243,197,147) calc(12% + 2px), transparent calc(12% + 2px), transparent calc(12% + 6px), rgb(243,197,147) calc(12% + 6px), rgb(243,197,147) calc(12% + 8px), transparent calc(12% + 8px), transparent 100%), linear-gradient(180deg, rgb(251,238,159) 12%, transparent 12%), repeating-linear-gradient(180deg, rgb(201,215,152) 0px, rgb(201,215,152)  2px, transparent 2px, transparent 32px), linear-gradient(rgb(251,238,159),rgb(251,238,159));  
+  background-image:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 12%,
+      rgb(243, 197, 147) 12%,
+      rgb(243, 197, 147) calc(12% + 2px),
+      transparent calc(12% + 2px),
+      transparent calc(12% + 6px),
+      rgb(243, 197, 147) calc(12% + 6px),
+      rgb(243, 197, 147) calc(12% + 8px),
+      transparent calc(12% + 8px),
+      transparent 100%
+    ),
+    linear-gradient(180deg, rgb(251, 238, 159) 12%, transparent 12%),
+    repeating-linear-gradient(
+      180deg,
+      rgb(201, 215, 152) 0px,
+      rgb(201, 215, 152) 2px,
+      transparent 2px,
+      transparent 32px
+    ),
+    linear-gradient(rgb(251, 238, 159), rgb(251, 238, 159));
   background-size: 100%;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   font-family: "VT-100", fixedsys, System, monospace;
   font-size: 14px;
-  }
+}
 
-  .sideboxes {
-    display: flex;
-    justify-content: center;
-  }
+.sideboxes {
+  display: flex;
+  justify-content: center;
+}
 
-  .mainboxes {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+.mainboxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .box {
-    border: 2px;
-    border-style: outset;
-    border-color: #fed800;
-    width:30vw;
-    height:fit-content;
-    background-color: #FFFF99;
-    position:relative;
-    margin: 10px;
-  }
+  border: 2px;
+  border-style: outset;
+  border-color: #fed800;
+  width: 30vw;
+  height: fit-content;
+  background-color: #ffff99;
+  position: relative;
+  margin: 10px;
+}
 
-  footer {
-    border: 2px;
-    border-style: outset;
-    border-color: #fed800;
-    width:fit-content;
-    height:fit-content;
-    background-color: #FFFF99;
-    position:relative;
-    margin: 10px;
-  }
+footer {
+  border: 2px;
+  border-style: outset;
+  border-color: #fed800;
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffff99;
+  position: relative;
+  margin: 10px;
+}
 
-  h1 {
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  .box-header {
-    background-color: #fed800; 
-    color:black;
-    height: 3vh;
-  }
+.box-header {
+  background-color: #fed800;
+  color: black;
+  height: 3vh;
+}
 
-  .sidebox-header1 {
-    background-color: #ff65a3; 
-    color:black;
-    height: 3vh;
-  }
+.sidebox-header1 {
+  background-color: #ff65a3;
+  color: black;
+  height: 3vh;
+}
 
-  .sidebox-header2 {
-    background-color: #cba3e0; 
-    color:black;
-    height: 3vh;
-  }
+.sidebox-header2 {
+  background-color: #cba3e0;
+  color: black;
+  height: 3vh;
+}
 
-  .sidebox-left {
-    border: 2px;
-    background-color: #ff7eb9;
-    border-style: outset;
-    border-color: #ff65a3;
-    width: 17vw;
-    height: 40vh;
-    margin-top: 10px;
-    overflow-y: auto;
-  }
+.sidebox-left {
+  border: 2px;
+  background-color: #ff7eb9;
+  border-style: outset;
+  border-color: #ff65a3;
+  width: 17vw;
+  height: 40vh;
+  margin-top: 10px;
+  overflow-y: auto;
+}
 
-  .sidebox-right {
-    border: 2px;
-    background-color: #e7a5d3;
-    border-style: outset;
-    border-color: #cba3e0;
-    float:right;
-    width: 17vw;
-    height: fit-content;
-    margin-top: 10px;
-  }
+.sidebox-right {
+  border: 2px;
+  background-color: #e7a5d3;
+  border-style: outset;
+  border-color: #cba3e0;
+  float: right;
+  width: 17vw;
+  height: fit-content;
+  margin-top: 10px;
+}
 
-  .inner {
-    padding: 10px;
-  }
+.inner {
+  padding: 10px;
+}
