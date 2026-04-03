@@ -1,7 +1,7 @@
 /* FONT IMPORT */
 @font-face {
-  font-family: 'Tex Gyre Chorus';
-  src: url('https://packedmol.neocities.org/Fonts/texgyrechorus-mediumitalic.woff2') format('woff2');
+  font-family: 'Monofonto rg';
+  src: url('https://packedmol.neocities.org/Fonts/monofonto%20rg.woff2') format('woff2');
 }
   
 /* -------------------------------------------------------- */
@@ -16,14 +16,14 @@
   --sidebar-background-color: #620085;
 
   /* Text Colors: */
-  --text-color: #ff00eeff;
-  --sidebar-text-color: #ff00eeff;
-  --link-color: #00ccffff;
-  --link-color-hover: #e3fcff;
+  --text-color: #1BFF80;
+  --sidebar-text-color: #1BFF80;
+  --link-color: #FFB642;
+  --link-color-hover: #FFFFFF;
 
   /* Text: */
-  --font: 'Tex Gyre Chorus', sans-serif;
-  --heading-font: 'Tex Gyre Chorus', cursive;
+  --font: 'Monofonto rg', sans-serif;
+  --heading-font: 'Monofonto rg', cursive;
   --font-size: 20px;
 
   /* Other Settings: */
@@ -101,7 +101,8 @@ a:focus {
 main {
   grid-area: main;
   overflow-y: auto;
-  background-image: url("https://packedmol.neocities.org/reviews/images/FNV%20MC%20Background.webp");
+  background-image: url("https://packedmol.neocities.org/reviews/images/Fallout%20pipboy%20background.webp");
+  background-size: 100% 100%;
 }
 
 .row {
@@ -139,10 +140,9 @@ header {
 
 aside {
   grid-area: aside;
-  border: var(--border);
-  border-radius: var(--round-borders);
   overflow: hidden;
-  background: var(--sidebar-background-color);
+  background-image: url("https://packedmol.neocities.org/reviews/images/Fallout%20pipboy%20background.webp");
+  background-size: 100% 100%;
   padding: var(--padding);
   color: var(--sidebar-text-color);
 }
@@ -211,12 +211,10 @@ aside {
 
 footer {
   grid-area: footer;
-  border: var(--border);
-  border-radius: var(--round-borders);
   overflow: hidden;
   font-size: 0.75em;
   padding: 15px;
-  background: var(--content-background-color);
+  background-image: url("https://packedmol.neocities.org/reviews/images/Fallout%20pipboy%20background.webp");
   display: flex;
   justify-content: center;
 }
@@ -340,11 +338,12 @@ header nav ul ul li a {
 
 main {
   line-height: 1.5;
+  padding: 5%;
 }
 
 .content {
   flex: 1 1;
-  border: #bd23ff;
+  border: #1BFF80;
 }
 
 main a,
@@ -405,6 +404,7 @@ main hr {
   border: 0;
   border-top: var(--border);
   margin: 1.5em 0;
+  border-color: #1BFF80;
 }
 
 /* HEADINGS: */
