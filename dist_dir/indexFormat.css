@@ -11,8 +11,8 @@ IF YOU WANT THE v2 CSS (i.e. NOT THE ORIGINAL BUT NOT THE CURRENT WIP REVAMP), G
 ***/
 
 @font-face {
-  font-family: 'Kleptocracy Titling';
-  src: url('https://packedmol.neocities.org/Fonts/KleptocracyTitlingCd-Regular.woff2') format('woff2');
+  font-family: 'GoodDog Plain';
+  src: url('https://packedmol.neocities.org/Fonts/GOODDP__.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@ IF YOU WANT THE v2 CSS (i.e. NOT THE ORIGINAL BUT NOT THE CURRENT WIP REVAMP), G
 body {
   background: url("https://packedmol.neocities.org/Images/dirtLayers.webp");
   color: white;
-  font-family: 'Kleptocracy Titling', Arial, sans-serif;
+  font-family: 'GoodDog Plain', Arial, sans-serif;
   letter-spacing: 0.1em;
   font-size: 1.2em;
   }
