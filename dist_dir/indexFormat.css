@@ -135,6 +135,7 @@ center {
   border-top: 5px solid #74b72e;
   border-bottom: 5px solid #74b72e;
   margin: 10px 0px 15px 0px;
+  box-shadow: 0px 4px 10px #000000;
   }
   
 /*Prevent overflow of large images in main text areas.*/
