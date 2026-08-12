@@ -151,8 +151,8 @@ center {
   /*Game icons and their reaction to users*/
 .gameIcons{
   margin:10px;
-  height: auto;
-  width: 10vw;
+  max-height: 30vh;
+  width: auto;
   transition: 0.3s ease-in-out;   
 }
 
