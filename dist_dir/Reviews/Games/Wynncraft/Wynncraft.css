@@ -1,7 +1,7 @@
 /* FONT IMPORT */
 @font-face {
-  font-family: 'Monofonto rg';
-  src: url('https://packedmol.neocities.org/Fonts/monofonto%20rg.woff2') format('woff2');
+  font-family: 'Minecraft';
+  src: url('https://packedmol.neocities.org/Fonts/Minecraft.woff2') format('woff2');
 }
   
 /* -------------------------------------------------------- */
@@ -11,25 +11,25 @@
 /* Variables are used like this: var(--text-color) */
 :root {
   /* Background Colors: */
-  --background-color: #eee5b5;
-  --content-background-color: #620085;
-  --sidebar-background-color: #620085;
+  --background-color: #4B322D;
+  --content-background-color: #4B322D;
+  --sidebar-background-color: #4B322D;
 
   /* Text Colors: */
-  --text-color: #1BFF80;
-  --sidebar-text-color: #1BFF80;
-  --link-color: #FFB642;
-  --link-color-hover: #FFFFFF;
+  --text-color: #EBE6E9;
+  --sidebar-text-color: #EBE6E9;
+  --link-color: #1e8719;
+  --link-color-hover: #9d0404;
 
   /* Text: */
-  --font: 'Monofonto rg', sans-serif;
-  --heading-font: 'Monofonto rg', cursive;
+  --font: 'Minecraft', sans-serif;
+  --heading-font: 'Minecraft', cursive;
   --font-size: 20px;
 
   /* Other Settings: */
   --margin: 18px;
   --padding: 14px;
-  --border: 3px solid #bd23ff;
+  --border: 6px outset #8E7B5E;
   --round-borders: 4px;
   --sidebar-width: 200px;
 }
@@ -54,7 +54,7 @@ body {
   font-family: var(--font);
   line-height: 1.2;
   background: var(--background-color);
-  background-image: url("https://packedmol.neocities.org/reviews/images/FNV/FNV%20Background.webp");
+  background-image: url("https://packedmol.neocities.org/reviews/images/Wynncraft/wynncraftbackground.webp");
   background-size:contain;
 }
 
@@ -101,8 +101,7 @@ a:focus {
 main {
   grid-area: main;
   overflow-y: auto;
-  background-image: url("https://packedmol.neocities.org/reviews/images/FNV/Fallout%20pipboy%20background.webp");
-  background-size: 100% 100%;
+  background-color: #4B322D;
 }
 
 .row {
@@ -141,7 +140,7 @@ header {
 aside {
   grid-area: aside;
   overflow: hidden;
-  background-image: url("https://packedmol.neocities.org/reviews/images/FNV/Fallout%20pipboy%20background.webp");
+  background-color: #4B322D;
   background-size: 100% 100%;
   padding: var(--padding);
   color: var(--sidebar-text-color);
@@ -149,10 +148,14 @@ aside {
 
 .left-sidebar {
   grid-area: leftSidebar;
+  border-style: outset;
+  border: var(--border);
 }
 
 .right-sidebar {
   grid-area: rightSidebar;
+  border-style: outset;
+  border-color: #8E7B5E;
 }
 
 .sidebar-title {
@@ -214,9 +217,10 @@ footer {
   overflow: hidden;
   font-size: 0.75em;
   padding: 15px;
-  background-image: url("https://packedmol.neocities.org/reviews/images/FNV/Fallout%20pipboy%20background.webp");
+  background-color: #4B322D;
   display: flex;
   justify-content: center;
+  border: var(--border);
 }
 
 footer a,
@@ -339,11 +343,12 @@ header nav ul ul li a {
 main {
   line-height: 1.5;
   padding: 5%;
+  border: var(--border);
 }
 
 .content {
   flex: 1 1;
-  border: #1BFF80;
+  border: #907B5E;
 }
 
 main a,
@@ -362,6 +367,13 @@ main .image,
 main .full-width-image,
 main .two-columns {
   margin: 0.75em 0;
+
+}
+
+main .full-width-image {
+    border-style: inset;
+  border-color: #281b19;
+  border-width: 5px;
 }
 
 main ol,
@@ -404,7 +416,7 @@ main hr {
   border: 0;
   border-top: var(--border);
   margin: 1.5em 0;
-  border-color: #1BFF80;
+  border-color: #907B5E;
 }
 
 /* HEADINGS: */
@@ -502,6 +514,8 @@ main h6 {
   padding: 5px;
   margin: 0;
   overflow: hidden;
+  border-style: inset;
+  border-width: 5px;
 }
 
 .pfp {
