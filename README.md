@@ -1,4 +1,4 @@
 # PackedMOL-website
-My Neocities Site
+My Site
 
-For a view of the entire site, head to Packedmol.neocities.org
+For a view of the entire site, head to Packedmol.neocities.org or Packedmol.nekoweb.org
