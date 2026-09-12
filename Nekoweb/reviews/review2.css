@@ -12,14 +12,14 @@ IF YOU WANT THE v2 CSS (i.e. NOT THE ORIGINAL BUT NOT THE CURRENT WIP REVAMP), G
 
 @font-face {
   font-family: 'GoodDog Plain';
-  src: url('https://packedmol.neocities.org/Fonts/GOODDP__.woff2') format('woff2');
+  src: url('https://packedmol.nekoweb.org/Fonts/GOODDP__.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  background: url("https://packedmol.neocities.org/Images/dirtLayers.webp");
+  background: url("https://packedmol.nekoweb.org/Images/dirtLayers.webp");
   color: white;
   font-family: 'GoodDog Plain', Arial, sans-serif;
   letter-spacing: 0.1em;
@@ -51,7 +51,7 @@ center {
 .header, .footer {
   height: 200px;
   overflow: hidden;
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)), url("https://packedmol.neocities.org/Images/torinbanner.webp"); /*This is the image in the header and footer. Replace it with your own!*/
+  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)), url("https://packedmol.nekoweb.org/Images/torinbanner.webp"); /*This is the image in the header and footer. Replace it with your own!*/
   background-size: 100% 100%;
   }
   

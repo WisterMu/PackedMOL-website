@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'TeX Gyre Chorus Font';
-  src: url('https://packedmol.neocities.org/Fonts/texgyrechorus-mediumitalic.woff2') format('woff2');
+  src: url('https://packedmol.nekoweb.org/Fonts/texgyrechorus-mediumitalic.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  background-image: url("https://packedmol.neocities.org/Images/oldmapbackground.webp");
+  background-image: url("https://packedmol.nekoweb.org/Images/oldmapbackground.webp");
 	background-size: 100%;
 	background-attachment: fixed;
   background-position:center;

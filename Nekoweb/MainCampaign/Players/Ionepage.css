@@ -1,7 +1,7 @@
 /* FONT IMPORT */
 @font-face {
   font-family: 'Tex Gyre Chorus';
-  src: url('https://packedmol.neocities.org/Fonts/texgyrechorus-mediumitalic.woff2') format('woff2');
+  src: url('https://packedmol.nekoweb.org/Fonts/texgyrechorus-mediumitalic.woff2') format('woff2');
 }
   
 /* -------------------------------------------------------- */
@@ -54,7 +54,7 @@ body {
   font-family: var(--font);
   line-height: 1.2;
   background: var(--background-color);
-  background-image: url("https://packedmol.neocities.org/MainCampaign/Players/images/ionebackground.webp");
+  background-image: url("https://packedmol.nekoweb.org/MainCampaign/Players/images/ionebackground.webp");
   background-size: cover;
 }
 
