@@ -105,17 +105,20 @@ body {
 /*Content Images*/
 
 .image {
+  display: block;
   width: auto;
   height: auto;
   max-width: 100%;
 }
 
 .full-width-image {
+  display: block;
   width: 100%;
   height: auto;
 }
 
 .images {
+  display: flex;
   width: calc(100% + 5px + 5px);
   margin-left: -5px;
   margin-right: -5px;
@@ -127,6 +130,4 @@ body {
   padding: 5px;
   margin: 0;
   overflow: hidden;
-  border-style: inset;
-  border-width: 5px;
 }
