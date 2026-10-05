@@ -1,3 +1,23 @@
+/***
+
+THIS CODE HAS BEEN REVAMPED... AGAIN!
+
+IF YOU WANT THE ORIGINAL CSS, GO TO: 
+  https://eggramen.neocities.org/code/css/misc/fakewp_old/fakewp2.css
+
+IF YOU WANT THE v2 CSS (i.e. NOT THE ORIGINAL BUT NOT THE CURRENT WIP REVAMP), GO TO: 
+  https://eggramen.neocities.org/code/css/misc/fakewp_new/fakewp2_new.css
+
+***/
+
+@font-face {
+  font-family: 'GoodDog Plain';
+  src: url('https://packedmol.neocities.org/Fonts/GOODDP__.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background-image:
     linear-gradient(
@@ -22,121 +42,159 @@ body {
       transparent 32px
     ),
     linear-gradient(rgb(251, 238, 159), rgb(251, 238, 159));
-  background-size: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  font-family: "VT-100", fixedsys, System, monospace;
-  font-size: 14px;
-}
-
-.sideboxes {
-  display: flex;
-  justify-content: center;
-}
-
-.mainboxes {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.box {
-  border: 2px;
-  border-style: outset;
-  border-color: #fed800;
-  width: 30vw;
-  height: fit-content;
-  background-color: #ffff99;
-  position: relative;
-  margin: 10px;
-}
-
-footer {
-  border: 2px;
-  border-style: outset;
-  border-color: #fed800;
-  width: fit-content;
-  height: fit-content;
-  background-color: #ffff99;
-  position: relative;
-  margin: 10px;
-}
-
-h1 {
+  color: white;
+  font-family: 'GoodDog Plain', Arial, sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  }
+  
+center {
   text-align: center;
+  }
+  
+/*Contains everything*/
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+  top: 0;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  }
+  
+/*Contains main and sidebar divs*/
+.wrapper-2 {
+  position: relative;
 }
 
-.box-header {
-  background-color: #fed800;
-  color: black;
-  height: 3vh;
-}
-
-.sidebox-header1 {
-  background-color: #ff65a3;
-  color: black;
-  height: 3vh;
-}
-
-.sidebox-header2 {
-  background-color: #cba3e0;
-  color: black;
-  height: 3vh;
-}
-
-.sidebox-left {
-  border: 2px;
-  background-color: #ff7eb9;
-  border-style: outset;
-  border-color: #ff65a3;
-  width: auto;
-  height: 60vh;
-  margin-top: 10px;
-  overflow-y: auto;
-}
-
-.sidebox-right {
-  border: 2px;
-  background-color: #e7a5d3;
-  border-style: outset;
-  border-color: #cba3e0;
-  float: right;
-  width: 17vw;
-  height: fit-content;
-  margin-top: 10px;
-}
-
-.inner {
-  padding: 10px;
-}
-
-/*Content Images*/
-
-.image {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-}
-
-.full-width-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.images {
-  display: flex;
-  width: calc(100% + 5px + 5px);
-  margin-left: -5px;
-  margin-right: -5px;
-}
-
-.images img {
-  width: 100%;
-  height: auto;
-  padding: 5px;
+/*Override default margins/padding for headings.*/
+.title h1, .title h2, .title h3 {
+  padding:0;
   margin: 0;
-  overflow: hidden;
+  }
+  
+/*Div style for individual links.*/
+.link {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  float: none;
+  font-weight: bold;
+  font-size: 1.16em;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 0px solid red;
+  }
+  
+.link a {
+  color: white;
+  text-decoration: none;
+  }
+
+a:hover{
+  color: rgb(255, 122, 145);
 }
+
+/*These three classes are just for defining the boundaries and size of the main and sidebar columns. Most fancy styling goes in the 'box' class.*/
+.main, .sidebar-right {
+  display: inline-block;
+  }
+  
+.sidebar-left, .sidebar-right {
+  width: 200px;
+  position: absolute;
+  top: 0;
+  }
+
+.sidebar-left {
+  margin-left: 10px;
+  }
+  
+.main {
+  margin-left: 220px;
+  width: 710px;
+  }
+  
+.sidebar-right {
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+  
+/*Box used for individual sections in the sidebar, center column, etc.*/
+.box {  
+  padding: 5px 10px 0px 10px;
+  background:	#feff9c;
+  color: #12282f;
+  border-top: 20px solid 	#fed800;
+  margin: 10px 0px 15px 0px;
+  box-shadow: 0px 4px 10px #000000;
+  }
+  
+/*Prevent overflow of large images in main text areas.*/
+.box img {
+  max-width: 100%;
+  height: auto;
+  }
+
+  textarea {
+    height: 3em;
+  }
+
+/***
+  Not give any style rules by default. Move the padding from the 'box' class here if you want boxes with specially styled headers or images that 
+  don't follow the margins of the main text. (For an example of that: see skin #1.)
+  ***/
+.inner ul{
+    height: fit-content;
+    padding-bottom: 10%;
+    overflow-y: auto;
+  }
+  
+/* For narrow screens. Makes the sidebars narrower, and makes width of the 
+ * center/main div 50% of the viewport width.
+ */
+@media(max-width:1180px) {
+  .wrapper {
+    width: calc(440px + 50vw);
+    }
+  .main {
+    width: 50vw;
+    }
+  }
+  
+@media(max-width:910px) {
+  .wrapper {
+    width: calc(360px + 52vw);
+    }
+  .sidebar-left, .sidebar-right {
+    width: 160px;
+    }
+  .main {
+    margin-left: 180px;
+    width: 52vw;
+    }
+  }
+  
+/* Mobile compatibility. Puts everything into a standard vertical layout. */
+@media(orientation:portrait) {
+  .wrapper {
+    width: 96vw;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    }
+  .wrapper-2 {
+    width: 94vw;
+    margin: 0 auto;
+    padding:0;
+    position: relative;
+    }
+  .sidebar-left, .main, .sidebar-right {
+    position: relative;
+    width: 92vw;
+    margin: 0.25rem 1vw;
+    }
+  .sidebar-left, .sidebar-right {
+    font-size: 0.95em;
+    }
+  }

@@ -517,14 +517,20 @@ main h6 {
   border-width: 5px;
 }
 
-.pfp {
-  width: 90%;
-  height: 90%;
-  border-color: var(--border);
-  border-style: groove;
-  border-radius: 50%;
-  border-width: 15px;
+#halloweenskin {
+  position: absolute;
+  z-index: 5;
+  right: -100px;
+  top: 100px;
 }
+
+#defaultskin { 
+  position: absolute;
+  z-index: 5;
+  left: -50px;
+  top: 600px;
+}
+
 
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
@@ -555,6 +561,13 @@ main h6 {
 /* -------------------------------------------------------- */
 /* MOBILE RESPONSIVE */
 /* -------------------------------------------------------- */
+
+/* CSS Code for devices < 1024px */
+@media (max-width: 1024px) {
+  #halloweenskin, #defaultskin {
+    display: none;
+  }
+}
 
 /* CSS Code for devices < 800px */
 @media (max-width: 800px) {
@@ -610,4 +623,5 @@ main h6 {
   #skip-to-content-link {
     font-size: 1rem;
   }
+
 }
