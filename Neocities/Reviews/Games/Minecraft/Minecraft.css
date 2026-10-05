@@ -520,15 +520,22 @@ main h6 {
 #halloweenskin {
   position: absolute;
   z-index: 5;
-  right: -100px;
+  right: 150px;
   top: 100px;
 }
 
 #defaultskin { 
   position: absolute;
   z-index: 5;
-  left: -50px;
+  left: 100px;
   top: 600px;
+}
+
+#toffeeskin {
+  position: absolute;
+  z-index: 5;
+  right: 100px;
+  top: 1300px;
 }
 
 
@@ -564,7 +571,7 @@ main h6 {
 
 /* CSS Code for devices < 1024px */
 @media (max-width: 1024px) {
-  #halloweenskin, #defaultskin {
+  #halloweenskin, #defaultskin, #toffeeskin {
     display: none;
   }
 }
