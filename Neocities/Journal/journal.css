@@ -54,7 +54,7 @@ center {
   
 /*Contains everything*/
 .wrapper {
-  width: 1150px;
+  width: 1200px;
   margin: 0 auto;
   top: 0;
   margin-top: -10px;
@@ -118,11 +118,12 @@ a:hover{
 .sidebar-right {
   margin-right: 10px;
   margin-left: 10px;
+  width:auto;
   }
   
 /*Box used for individual sections in the sidebar, center column, etc.*/
 .box {  
-  padding: 5px 10px 0px 10px;
+  padding: 5px 10px 20px 10px;
   background:	#feff9c;
   color: #12282f;
   border-top: 20px solid 	#fed800;
@@ -149,6 +150,19 @@ a:hover{
     padding-bottom: 10%;
     overflow-y: auto;
   }
+
+  footer {
+    border: 2px;
+    border-style: outset;
+    border-color: #fed800;
+    width:fit-content;
+    height:fit-content;
+    background-color: #feff9c;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 20vh;
+  }
+
   
 /* For narrow screens. Makes the sidebars narrower, and makes width of the 
  * center/main div 50% of the viewport width.
