@@ -155,8 +155,8 @@ a:hover{
 /*Game icons and their reaction to users*/
 .gameIcons{
   margin:10px;
-  max-height: 30vh;
-  width: auto;
+  max-height: 40vh;
+  width: 10vw;
   transition: 0.3s ease-in-out;   
 }
 
