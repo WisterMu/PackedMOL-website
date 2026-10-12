@@ -53,7 +53,7 @@ body {
   font-family: var(--font);
   line-height: 1.2;
   background: var(--background-color);
-  background-image: url("https://packedmol.nekoweb.org/reviews/images/stardewValley/stardewBackground.jpg");
+  background-image: url("https://packedmol.nekoweb.org/reviews/images/stardewValley/stardewBackground.webp");
   background-size:contain;
 }
 
@@ -93,7 +93,7 @@ a:focus {
   width: 1000px;
   display: grid;
   grid-gap: var(--margin);
-  grid-template: "header header" auto "leftSidebar main" auto "footer footer" auto / var(--sidebar-width) auto;
+  grid-template: "header header header" auto "leftSidebar main rightSidebar" auto "footer footer footer" auto / var(--sidebar-width) auto;
   /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
@@ -155,7 +155,7 @@ aside {
 
 .right-sidebar {
   grid-area: rightSidebar;
-  border-color: var(--border)
+  border: var(--border);
   border-radius: 10px;
   -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
   border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
@@ -557,13 +557,6 @@ main h6 {
 /* MOBILE RESPONSIVE */
 /* -------------------------------------------------------- */
 
-/* CSS Code for devices < 1024px */
-@media (max-width: 1024px) {
-  #halloweenskin, #defaultskin, #toffeeskin {
-    display: none;
-  }
-}
-
 /* CSS Code for devices < 800px */
 @media (max-width: 800px) {
   body {
@@ -572,13 +565,8 @@ main h6 {
 
   .layout {
     width: 100%;
-    grid-template: "header" auto  "main" auto "leftSidebar" auto "footer" auto / 1fr;
+    grid-template: "header" auto  "main" auto "leftSidebar" auto "rightSidebar" auto "footer" auto / 1fr;
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
-  }
-
-  
-  .right-sidebar { 
-    display: none;
   }
 
   aside {
