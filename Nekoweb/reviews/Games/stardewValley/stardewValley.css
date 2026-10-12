@@ -54,7 +54,7 @@ body {
   line-height: 1.5;
   background: var(--background-color);
   background-image: url("https://packedmol.nekoweb.org/reviews/images/stardewValley/stardewBackground.webp");
-  background-size:contain;
+  background-size:cover;
 }
 
 ::selection {
@@ -511,6 +511,10 @@ main h6 {
   display: block;
   width: 100%;
   height: auto;
+  border: 10px solid #FAE58D;
+  border-radius: 10px;
+  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
+  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
 .images {
