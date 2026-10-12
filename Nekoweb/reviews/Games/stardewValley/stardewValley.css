@@ -29,8 +29,7 @@
   /* Other Settings: */
   --margin: 18px;
   --padding: 14px;
-  --border: 6px outset #56160C;
-  --round-borders: 4px;
+  --border: 10px solid #FAE58D;
   --sidebar-width: 200px;
 }
 
@@ -148,14 +147,18 @@ aside {
 
 .left-sidebar {
   grid-area: leftSidebar;
-  border-style: outset;
   border: var(--border);
+  border-radius: 10px;
+  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
+  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
 .right-sidebar {
   grid-area: rightSidebar;
-  border-style: outset;
   border-color: var(--border)
+  border-radius: 10px;
+  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
+  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
 .sidebar-title {
@@ -221,6 +224,9 @@ footer {
   display: flex;
   justify-content: center;
   border: var(--border);
+  border-radius: 10px;
+  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
+  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
 footer a,
@@ -344,6 +350,9 @@ main {
   line-height: 1.5;
   padding: 5%;
   border: var(--border);
+  border-radius: 10px;
+  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
+  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
 .content {
@@ -370,9 +379,10 @@ main .two-columns {
 }
 
 main .full-width-image {
-    border-style: inset;
-  border-color: #8b8b8b;
-  border-width: 10px;
+  border: 10px solid #FAE58D;
+  border-radius: 10px;
+  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
+  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
 main ol,
