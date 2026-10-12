@@ -30,7 +30,7 @@
   --margin: 18px;
   --padding: 14px;
   --border: 10px solid #FAE58D;
-  --sidebar-width: 200px;
+  --sidebar-width: 250px;
 }
 
 /* -------------------------------------------------------- */
@@ -93,7 +93,7 @@ a:focus {
   width: 1000px;
   display: grid;
   grid-gap: var(--margin);
-  grid-template: "header header header" auto "leftSidebar main rightSidebar" auto "footer footer footer" auto / var(--sidebar-width) auto;
+  grid-template: "header header" auto "leftSidebar main" auto "leftSidebar2 main" auto "leftSidebar3 main" auto "footer footer" auto / var(--sidebar-width) auto;
   /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
 }
 
@@ -147,14 +147,17 @@ aside {
 
 .left-sidebar {
   grid-area: leftSidebar;
-  border: var(--border);
-  border-radius: 10px;
-  -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
-  border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
 }
 
-.right-sidebar {
-  grid-area: rightSidebar;
+.left-sidebar2 {
+  grid-area: leftSidebar2;
+}
+
+.left-sidebar3 {
+  grid-area: leftSidebar3;
+}
+
+.left-sidebar, .left-sidebar2, .left-sidebar3 {
   border: var(--border);
   border-radius: 10px;
   -o-border-image: url(https://res.cloudinary.com/dqfgwgif9/image/upload/v1645661048/stardew-valley/border.png) 15 stretch;
@@ -565,7 +568,7 @@ main h6 {
 
   .layout {
     width: 100%;
-    grid-template: "header" auto  "main" auto "leftSidebar" auto "rightSidebar" auto "footer" auto / 1fr;
+    grid-template: "header" auto  "main" auto "leftSidebar" auto "footer" auto / 1fr;
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
   }
 
