@@ -527,28 +527,6 @@ main h6 {
   border-width: 5px;
 }
 
-#halloweenskin {
-  position: absolute;
-  z-index: 5;
-  right: 150px;
-  top: 100px;
-}
-
-#defaultskin { 
-  position: absolute;
-  z-index: 5;
-  left: 100px;
-  top: 600px;
-}
-
-#toffeeskin {
-  position: absolute;
-  z-index: 5;
-  right: 100px;
-  top: 1300px;
-}
-
-
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
