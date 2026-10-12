@@ -51,7 +51,7 @@ body {
   padding: var(--margin);
   color: var(--text-color);
   font-family: var(--font);
-  line-height: 1.2;
+  line-height: 1.5;
   background: var(--background-color);
   background-image: url("https://packedmol.nekoweb.org/reviews/images/stardewValley/stardewBackground.webp");
   background-size:contain;
@@ -397,7 +397,7 @@ main ul {
 main ol li,
 main ul li {
   margin-bottom: 0.2em;
-  line-height: 1.3;
+  line-height: 1.6;
 }
 
 main ol {
@@ -528,6 +528,14 @@ main h6 {
   overflow: hidden;
   border-style: inset;
   border-width: 5px;
+}
+
+.gameIcons{
+  transition: 0.3s ease-in-out;   
+}
+
+.gameIcons:hover {
+  transform: scale(1.05);
 }
 
 /* -------------------------------------------------------- */
