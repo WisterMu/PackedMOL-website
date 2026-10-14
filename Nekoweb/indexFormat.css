@@ -173,6 +173,19 @@ a:hover{
     height: 40vh;
     overflow-y: auto;
   }
+
+.webringSection {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  gap: 10px;
+}
+
+.webrings {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
   
 /* For narrow screens. Makes the sidebars narrower, and makes width of the 
  * center/main div 50% of the viewport width.
