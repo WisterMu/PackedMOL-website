@@ -55,7 +55,8 @@ body {
   line-height: 1.2;
   background: var(--background-color);
   background-image: url("https://packedmol.nekoweb.org/reviews/images/FNV/FNVBackground.webp");
-  background-size:contain;
+  background-size:auto;
+  background-attachment: fixed;
 }
 
 ::selection {

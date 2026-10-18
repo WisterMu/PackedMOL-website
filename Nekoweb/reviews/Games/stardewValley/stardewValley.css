@@ -580,7 +580,7 @@ main h6 {
 
   .layout {
     width: 100%;
-    grid-template: "header" auto  "main" auto "leftSidebar" auto "footer" auto / 1fr;
+    grid-template: "header" auto  "main" auto "leftSidebar" auto "leftSidebar2" auto "leftSidebar3" auto "footer" auto / 1fr;
     /* Confused by the grid? Check out my tutorial: https://petrapixel.neocities.org/coding/positioning-tutorial#grid */
   }
 
