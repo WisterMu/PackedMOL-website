@@ -171,7 +171,7 @@ a:hover{
   don't follow the margins of the main text. (For an example of that: see skin #1.)
   ***/
 .inner ul{
-    height: 40vh;
+    height: 70vh;
     overflow-y: auto;
   }
 
